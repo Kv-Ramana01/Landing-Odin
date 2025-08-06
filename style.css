@@ -382,3 +382,60 @@ footer {
     margin-left: auto;
 }
 }
+
+/* ========== LARGE DESKTOP: 1600px and below ========== */
+@media (max-width: 1600px) {
+  .header,
+  .first-section,
+  .second-section,
+  .third-section {
+    padding: 0 160px;
+  }
+
+  .main-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .third-panel-container {
+    padding: 45px 100px;
+  }
+
+  .second-panel-container {
+    padding: 0 80px;
+  }
+}
+
+/* ========== LAPTOP: 1280px and below ========== */
+@media (max-width: 1280px) {
+  .header,
+  .first-section,
+  .second-section,
+  .third-section {
+    padding: 0 80px;
+  }
+
+  .main-panel-container {
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .third-panel-container {
+    padding: 45px 60px;
+  }
+
+  .second-panel-container {
+    padding: 0 60px;
+  }
+
+  .main-panel-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main-image-container img {
+    width: 100%;
+  }
+}
+
